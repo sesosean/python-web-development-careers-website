@@ -1,0 +1,2997 @@
+2025-02-23 19:58:43,134 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-02-23 19:58:43,151 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-02-23 19:58:43,152 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-02-23 19:58:43,219 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-02-23 19:58:43,221 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-02-23 19:58:44,115 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/18sUN8Z_yTo0El_5OH2LES_i0c2FeOr7YK4ZZyuxUh7s?includeGridData=false HTTP/1.1" 200 None
+2025-02-23 19:58:44,721 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/18sUN8Z_yTo0El_5OH2LES_i0c2FeOr7YK4ZZyuxUh7s?includeGridData=false HTTP/1.1" 200 None
+2025-02-23 19:58:45,365 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/18sUN8Z_yTo0El_5OH2LES_i0c2FeOr7YK4ZZyuxUh7s/values/%27Sheet%201%27 HTTP/1.1" 200 None
+2025-02-23 19:58:45,367 - INFO - 📌 Selected Keyword: anti ageing cream for oily skin
+2025-02-23 19:58:45,367 - INFO - 🚀 Initiating Page Optimizer Pro (POP) report generation...
+2025-02-23 19:58:45,368 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 19:58:45,867 - DEBUG - https://app.pageoptimizer.pro:443 "POST /api/expose/get-terms/ HTTP/1.1" 200 None
+2025-02-23 19:58:45,868 - INFO - 🔄 Checking POP task status...
+2025-02-23 19:58:45,869 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 19:58:46,236 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 26
+2025-02-23 19:58:46,236 - DEBUG - 🔍 Full POP API response: {
+  "status": "PENDING"
+}
+
+2025-02-23 19:58:46,236 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (1/8)...
+2025-02-23 19:59:16,237 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 19:59:16,585 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 19:59:16,586 - DEBUG - 🔍 Full POP API response: {
+  "msg": "analyzing competitor urls.", 
+  "status": "PROGRESS", 
+  "value": 12
+}
+
+2025-02-23 19:59:16,586 - INFO - Task Status: analyzing competitor urls., Progress: 12%
+2025-02-23 19:59:36,588 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 19:59:36,940 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 19:59:36,941 - DEBUG - 🔍 Full POP API response: {
+  "msg": "analyzing competitor urls.", 
+  "status": "PROGRESS", 
+  "value": 20
+}
+
+2025-02-23 19:59:56,943 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 19:59:57,318 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 19:59:57,319 - DEBUG - 🔍 Full POP API response: {
+  "msg": "calculating lsi terms.", 
+  "status": "PROGRESS", 
+  "value": 28
+}
+
+2025-02-23 19:59:57,319 - INFO - Task Status: calculating lsi terms., Progress: 28%
+2025-02-23 20:00:17,320 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:00:17,673 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:00:17,674 - DEBUG - 🔍 Full POP API response: {
+  "msg": "calculating lsi terms.", 
+  "status": "PROGRESS", 
+  "value": 36
+}
+
+2025-02-23 20:00:37,676 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:00:38,038 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:00:38,039 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:00:38,039 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (1/8)...
+2025-02-23 20:01:08,040 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:01:08,414 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:01:08,415 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:01:08,416 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (2/8)...
+2025-02-23 20:01:38,416 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:01:38,786 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:01:38,786 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:01:38,787 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (3/8)...
+2025-02-23 20:02:08,787 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:02:09,145 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:02:09,145 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:02:09,155 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (4/8)...
+2025-02-23 20:02:39,157 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:02:39,512 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:02:39,512 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:02:39,513 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (5/8)...
+2025-02-23 20:03:09,514 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:03:09,882 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:03:09,883 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:03:09,884 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (6/8)...
+2025-02-23 20:03:39,885 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:03:40,247 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:03:40,247 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:03:40,247 - WARNING - ⚠️ Received 'Unknown, Progress: 0%'. Retrying (7/8)...
+2025-02-23 20:04:10,248 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:04:10,597 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:04:10,597 - DEBUG - 🔍 Full POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
+2025-02-23 20:04:10,597 - ERROR - ❗ POP API status is stuck at 'Unknown' after multiple retries. Checking one last time before exiting.
+2025-02-23 20:04:10,598 - DEBUG - Starting new HTTPS connection (1): app.pageoptimizer.pro:443
+2025-02-23 20:04:10,939 - DEBUG - https://app.pageoptimizer.pro:443 "GET /api/task/f6fede45-6ee3-4cbd-b92b-319f93fc42bc/results/ HTTP/1.1" 200 None
+2025-02-23 20:04:10,939 - ERROR - ❌ Final check failed. Exiting.
+2025-02-23 20:04:10,939 - DEBUG - Final POP API response: {
+  "date_done": "2025-02-23 20:00:24", 
+  "lsaPhrases": [
+    {
+      "averageCount": 5, 
+      "phrase": "members", 
+      "targetCount": 0, 
+      "weight": 0.25722053426648805
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "smart", 
+      "targetCount": 0, 
+      "weight": 0.16580620616317518
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "posay", 
+      "targetCount": 0, 
+      "weight": 0.15712120091098075
+    }, 
+    {
+      "averageCount": 8, 
+      "phrase": "shop", 
+      "targetCount": 0, 
+      "weight": 0.1570452435972146
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "members shop", 
+      "targetCount": 0, 
+      "weight": 0.15174533178311372
+    }, 
+    {
+      "averageCount": 13, 
+      "phrase": "price", 
+      "targetCount": 0, 
+      "weight": 0.14848287032152044
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "clinical", 
+      "targetCount": 0, 
+      "weight": 0.13658645110275708
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick view", 
+      "targetCount": 0, 
+      "weight": 0.13002623173798614
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "ml rated", 
+      "targetCount": 0, 
+      "weight": 0.12737263517190478
+    }, 
+    {
+      "averageCount": 15, 
+      "phrase": "skincare", 
+      "targetCount": 0, 
+      "weight": 0.11838252364931147
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "smart clinical repair", 
+      "targetCount": 0, 
+      "weight": 0.11830654212632669
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "olay", 
+      "targetCount": 0, 
+      "weight": 0.11420766448694025
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "kits", 
+      "targetCount": 0, 
+      "weight": 0.11418569238890187
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "stars", 
+      "targetCount": 0, 
+      "weight": 0.11036117986620382
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "quick", 
+      "targetCount": 0, 
+      "weight": 0.10944640115536881
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "save", 
+      "targetCount": 0, 
+      "weight": 0.10796434574551197
+    }, 
+    {
+      "averageCount": 12, 
+      "phrase": "wrinkle", 
+      "targetCount": 0, 
+      "weight": 0.1069088977393587
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "uk", 
+      "targetCount": 0, 
+      "weight": 0.09933762493963454
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "professional", 
+      "targetCount": 0, 
+      "weight": 0.09841213305136709
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "rated", 
+      "targetCount": 0, 
+      "weight": 0.0979599986042945
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "repair", 
+      "targetCount": 0, 
+      "weight": 0.09556699640602212
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wrinkle correcting", 
+      "targetCount": 0, 
+      "weight": 0.09376673279767143
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "buy", 
+      "targetCount": 0, 
+      "weight": 0.08175254513046468
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "wishlist", 
+      "targetCount": 0, 
+      "weight": 0.08167028229192676
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "loading", 
+      "targetCount": 0, 
+      "weight": 0.0804949181816087
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "haircare", 
+      "targetCount": 0, 
+      "weight": 0.08041686039919539
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "bodycare", 
+      "targetCount": 0, 
+      "weight": 0.08008335516175327
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "back", 
+      "targetCount": 0, 
+      "weight": 0.07998975004975722
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "hair", 
+      "targetCount": 0, 
+      "weight": 0.07756204561801558
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "home", 
+      "targetCount": 0, 
+      "weight": 0.07646623660135272
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "clinique", 
+      "targetCount": 0, 
+      "weight": 0.07570855169309688
+    }, 
+    {
+      "averageCount": 20, 
+      "phrase": "ml", 
+      "targetCount": 0, 
+      "weight": 0.07348287906368828
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "la roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "roche", 
+      "targetCount": 0, 
+      "weight": 0.07340351120062441
+    }, 
+    {
+      "averageCount": 6, 
+      "phrase": "makeup", 
+      "targetCount": 0, 
+      "weight": 0.07285573188458837
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "spend", 
+      "targetCount": 0, 
+      "weight": 0.07266734943534824
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "beauty", 
+      "targetCount": 0, 
+      "weight": 0.07073385146145413
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "correcting", 
+      "targetCount": 0, 
+      "weight": 0.07025778696795196
+    }, 
+    {
+      "averageCount": 5, 
+      "phrase": "lab", 
+      "targetCount": 0, 
+      "weight": 0.06626563936812786
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "valid", 
+      "targetCount": 0, 
+      "weight": 0.065198008556822
+    }, 
+    {
+      "averageCount": 9, 
+      "phrase": "view", 
+      "targetCount": 0, 
+      "weight": 0.059997041906261615
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "hydrates", 
+      "targetCount": 0, 
+      "weight": 0.05859328609331934
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "site", 
+      "targetCount": 0, 
+      "weight": 0.056350500402824244
+    }, 
+    {
+      "averageCount": 4, 
+      "phrase": "day cream", 
+      "targetCount": 0, 
+      "weight": 0.05614085028340817
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "set", 
+      "targetCount": 0, 
+      "weight": 0.05511250552924839
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "advanced", 
+      "targetCount": 0, 
+      "weight": 0.052085299789542155
+    }, 
+    {
+      "averageCount": 3, 
+      "phrase": "texture", 
+      "targetCount": 0, 
+      "weight": 0.052080750488786305
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "face cream", 
+      "targetCount": 0, 
+      "weight": 0.048157560542523216
+    }, 
+    {
+      "averageCount": 2, 
+      "phrase": "firmness", 
+      "targetCount": 0, 
+      "weight": 0.04774637948724279
+    }
+  ], 
+  "prepareId": 7050, 
+  "status": "SUCCESS", 
+  "variations": [
+    "anti ageing creams", 
+    "creams", 
+    "ageing", 
+    "anti-aging face moisturizer", 
+    "products", 
+    "skin", 
+    "oily", 
+    "skinceuticals anti-ageing creams"
+  ]
+}
+
